@@ -157,6 +157,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--description-font-color);
+  display: flex;
+  align-items: center;
 }
 .mail-link:hover,
 .mail-link:focus {
@@ -318,8 +320,8 @@ body {
 .team-card {
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 32px;
+  padding-left: 32px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -350,8 +352,6 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 16px;
-  padding-left: 22px;
-  padding-right: 22px;
 }
 
 .social-list-link {
@@ -385,11 +385,6 @@ body {
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.clients-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .clients-title {
   margin-bottom: 50px;
@@ -508,17 +503,11 @@ body {
 
 .footer-container {
   display: flex;
-  justify-content: left;
+  align-items: baseline;
 }
 .footer-firstblock {
-  width: 500px;
+  margin-right: 70px;
 }
-.footer-secondblock {
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-}
-
 .footer-social-list {
   display: flex;
   justify-content: left;
